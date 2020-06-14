@@ -1,195 +1,126 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Portfolio Page Template</title>
-    <!-- Bootstrap -->
-    <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-			 <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
-          </li>
-			 <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <section>
-      <div class="jumbotron text-center mt-2"><img src="C:\Users\denni\OneDrive\Documents\Portfolio Website\profile.jpg" alt="Profile Picture" width="194" height="250" class="mr-3 img-fluid rounded">
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="portfolio.css" />
+<title>Portfolio</title>
+	
+<div id="top" class="topnav"><a href="#contact">Contact</a><a href="#about">About</a><a href="#news">Projects</a><a
+            class="active" href="#home">Home</a></div>
+<!-- Navbar -->
+
+
+
+
+<div class="hero-image" >
+    <div class="hero-text">
+      <h1>Hi, I am Dennis Liebenberg </h1>
+      <p> Freelance Developer </p>
+      <button onclick="location.href='#contact'">Hire me</button>
+    </div>
+  </div>
+	</head>
+
+<body>
+	<h1 class="header">Skills</h1>
+<section id="intro" class="intro" align="center">
+	
+  <blockquote>&nbsp; </blockquote>
+  <div class="skills"> <img src="../Unnamed Site 2/data.png" width="150" height="150" alt=""/>
+    <h5>Front-End </h5>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Java Script</li>
+      <li>Angular</li>
+    </ul>
+  </div>
+  <div class="skills"> <img src="app-development.png" width="150" height="150" alt="" />
+    <h5>Back-End</h5>
+    <ul>
+      <li>Java</li>
+      <li>PHP</li>
+      <li>TypeScript</li>
+      <li>SQL</li>
+      <li>C++</li>
+    </ul>
+  </div >
+  <div class="skills"> <img src="database.png" width="150" height="150	" alt=""/>
+    <h5>Other</h5>
+    <ul>
+      <li>MS Project</li>
+      <li>Photoshop</li>
+      <li>Adobe XD</li>
+      <li>Linux</li>
+      <li>SourceTree</li>
+    </ul>
+  </div>
+</section>
+<!-- Skills -->
+
+<section id="Projects">
+  <h1 class="header">Projects</h1>
+  <div class="row">
+    <div class="column">
+      <div class="card"> <img src="../Unnamed Site 2/400x400.gif" width="250" height="250" alt=""/>
         <div class="container">
-          <div class="row"><span class="col-12"></span>
-            <div class="col-12">
-              <h1>Dennis Liebenberg</h1>
-              <p>I am a fullstack developer with a Bacholars Degree in Information Technology.<br>I am also a coffee enthusiast ☕!<br>😜</p>
-              <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h1>My Skill Set</h1>
-            <p>Troughout the course of my degere, I have learned multiple Languages and Skill needed.&nbsp; &nbsp;&nbsp;</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="container mt-2">
-        <div class="row">
-          <div class="col-md-4 col-12">
-            <ul class="list-unstyled">
-              <li class="media">
-                <img src="images/app-development.png" alt="Profile Picture" width="150" height="150" class="mr-3">
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">Front-End&nbsp;</h5>
-                  <ul>
-					  <li>HTML</li>
-					   <li>CSS</li>
-					   <li>Java Script</li>
-					  <li>Angular</li>
-					</ul>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4 col-12">
-            <ul class="list-unstyled">
-              <li class="media">
-                <img src="images/data.png" alt="Generic placeholder image" width="123" height="123" class="mr-3">
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">Back-End&nbsp;</h5>
-                 <ul>
-					 <li>Java</li>
-					  <li>PHP</li>
-					  <li>TypeScript</li>
-					  <li>SQL</li>
-					  <li>C++</li>
-					 
-					</ul>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4 col-12">
-            <ul class="list-unstyled">
-              <li class="media">
-                <img src="images/database.png" alt="Generic placeholder image" width="150" class="mr-3">
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">Others&nbsp;</h5>
-                  <ul>
-					  <li>MS Project</li>
-					   <li>Photoshop</li>
-					   <li>Adobe XD</li>
-					   <li>Linux</li>
-					   <li>SourceTree</li>
-					</ul>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h2>Latest Work</h2>
-            <p>Some projects that I have developed for friends and family&nbsp;&nbsp;</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-12 text-center">
-            <img class="img-fluid" src="images/400x400.gif" alt="">
-            <h4>Project 1</h4>
-            <h6>Project 1 Details</h6>
-          </div>
-          <div class="col-md-6 col-12 text-center mt-md-0 mt-2">
-            <img class="img-fluid" src="images/400x400.gif" alt="">
-            <h4>Project 2</h4>
-            <h6>Project 2 Details</h6>
-          </div>
-        </div>
-        <div class="row mt-2">
-          <div class="col-md-3 col-6"><img class="img-fluid float-right" src="images/200x200.gif" alt=""></div>
-          <div class="col-md-3 col-6"><img class="img-fluid float-left" src="images/200x200.gif" alt=""></div>
-          <div class="col-md-3 col-6 mt-md-0 mt-1"><img class="img-fluid float-right" src="images/200x200.gif" alt=""></div>
-          <div class="col-md-3 col-6 mt-md-0 mt-1"><img class="img-fluid float-left" src="images/200x200.gif" alt=""></div>
-        </div>
-        <hr>
-        <div class="row">
-          <div class="col-md-3 col-6"><img class="img-fluid float-right" src="images/200x200.gif" alt=""></div>
-          <div class="col-md-3 col-6"><img class="img-fluid float-left" src="images/200x200.gif" alt=""></div>
-          <div class="col-md-3 col-6 mt-md-0 mt-1"><img class="img-fluid float-right" src="images/200x200.gif" alt=""></div>
-          <div class="col-md-3 col-6 mt-md-0 mt-1"><img class="img-fluid float-left" src="images/200x200.gif" alt=""></div>
-        </div>
-      </div>
-    </section>
-    <hr>
-   
-    <hr>
-    <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-12">
-            <h3 class="text-center">WHO WE ARE</h3>
-            <p>I am a graduate looking to kick start my career as a software developer. When I am not developing, I like to cook, read or play video games. Or just hangout with my friends.</p>
-          </div>
-          <div class="col-md-4 col-12">
-            <h3 class="text-center">GET IN TOUCH</h3>
-            <address class="text-center">
-              <strong>Dennis Liebenberg</strong><br>
-              Cape Town<br>
-              <abbr title="Phone">P:</abbr> +27 81 544 7647
-				<a href = "mailto: Dennisliebenberg@outlook.com">dennisliebenberg@outlook.com</a>
-            </address>
-          </div>
-          <div class="col-md-4 col-12">
-            <h3 class="text-center">NEWSLETTER</h3>
-            <form>
-              <div class="form-group col-12">
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                <button type="submit" class="btn btn-dark mt-2">Subscribe</button>
-              </div>
-            </form>
-          </div>
+          <h2>Nicole Stuurman</h2>
+          <p class="title">Blog</p>
+          <p>Good News Travels Fast</p>
+          <p>
+            <button class="button">View</button>
+          </p>
         </div>
       </div>
     </div>
-    <hr>
-    <footer class="text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <p>Copyright © Dennis Liebenberg. All rights reserved.</p>
-          </div>
+    <div class="column">
+      <div class="card"> <img src="../Unnamed Site 2/400x400.gif" width="250" height="250" alt=""/>
+        <div class="container">
+          <h2>Project 2</h2>
+          <p class="title">Project Type</p>
+          <p>Title of project</p>
+          <p>
+            <button class="button">View</button>
+          </p>
         </div>
       </div>
-    </footer>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap-4.3.1.js"></script>
-  </body>
+    </div>
+    <div class="column">
+      <div class="card"> <img src="../Unnamed Site 2/400x400.gif" width="250" height="250" alt=""/>
+        <div class="container">
+          <h2>Project 3</h2>
+          <p class="title">Project Type</p>
+          <p>Title of project</p>
+          <p>
+            <button class="button">View</button>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+</section>
+
+<!-- Projects -->
+
+<section id="about">
+  <div  class="about-section">
+    <h1 class="header" > About Me</h1>
+    <p>I am currently in my Final Year, Studying Information Technology.</p>
+    <p>I am Based in Cape Town and Looking to start a career in development </p>
+  </div>
+  <hr>
+</section>
+<!--About -->
+
+<section id="contact">
+  <div class="contact-section"> 
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <h1 class="header" > Contact Me</h1>
+    <a href="https://www.instagram.com/dennis_liebenberg115"target="_blank" class="fa fa-instagram"></a> <a href="https://www.linkedin.com/in/dennis-liebenberg/"target="_blank"  class="fa fa-linkedin"></a> <a href="https://www.facebook.com/liebenbergdennis/" target="_blank" class="fa fa-facebook"></a> <a  HREF="mailto:dennisliebenberg@outlook.com" class="fa fa-envelope "></a> </div>
+</section>
+<!-- Conact details -->
+
+</body>
 </html>
