@@ -5,19 +5,23 @@ body, html {
   font-family: 'Roboto', sans-serif;
   height: 100%;
 }
-.header{
-	text-align: center;
-    font-size: 30px;
-    color: #000;
-   text-decoration: underline;
-    padding-bottom: 5px;
+.header {
+  text-align: center;
+  font-size: 30px;
+  color: #000;
+  text-decoration: underline;
+  padding-bottom: 5px;
 }
-
-
 /* Add a black background color to the top navigation */
 .topnav {
   overflow: hidden;
   border-bottom: 1px solid black;
+}
+.topnav .icon {
+  display: none;
+}
+.topnav .icon {
+  display: none;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -37,7 +41,6 @@ body, html {
 .topnav a.active {
   border: thin
 }
-
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
@@ -69,18 +72,14 @@ body, html {
   display: inline-block;
   font-size: 16px;
 }
-
 .intro {
   background-color: rgba(220, 220, 220, 0.59);
   display: flex;
   justify-content: center;
   padding: 15px;
-	border-bottom: 1px solid black;
-	border-top: 1px solid black;
- 
-	 
-
-	margin: 15px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  margin: 15px;
 }
 .intro img {
   padding: 100;
@@ -104,9 +103,8 @@ body, html {
   margin-bottom: 16px;
   padding: 0 8px;
 }
-
-.row img{
-	  border: 2px solid rgba(136,136,136,1.00);
+.row img {
+  border: 2px solid rgba(136, 136, 136, 1.00);
 }
 /* Some left and right padding inside the container */
 .container {
@@ -136,12 +134,116 @@ body, html {
   background-color: #555;
 }
 /* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1024px	) {
+  .hero-image {
+    width: 100%;
+    font-size: 12px;
+  }
+  .topnav a {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
   .column {
     width: 100%;
     display: block;
   }
+  .intro {
+    width: 100%;
+    display: block;
+  }
 }
+
+@media screen and (max-width: 768px) {
+  .hero-image {
+    width: 100%;
+    font-size: 12px;
+  }
+  .topnav a {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .column {
+    width: 100%;
+    display: block;
+  }
+  .intro {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 480px) {
+  .hero-image {
+    width: 100%;
+    font-size: 12px;
+  }
+  .topnav a {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .column {
+    width: 100%;
+    display: block;
+  }
+  .intro {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+
+
 .about-section {
   padding: 50px;
   text-align: center;
